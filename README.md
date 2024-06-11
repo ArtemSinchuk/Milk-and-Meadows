@@ -1,5 +1,5 @@
-# Milk and Meadows: A Virtual Cow Simulation Game
-
+# Milk and Meadows: A Virtual Cow Simulation 
+![Cow](https://github.com/ArtemSinchuk/Milk-and-Meadows/assets/158162880/610c081c-2808-402c-9f6f-6a326152688e)
 ## Description
 
 Milk and Meadows is a simulation game where players take care of a virtual cow, collecting milk and crafting various items from it. The game features a leveling system, daily tasks, and events that affect the cow's well-being.

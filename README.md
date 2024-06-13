@@ -8,16 +8,16 @@ The game is designed to be engaging and educational, allowing players to learn a
 
 ## Features
 
-- Virtual cow with attributes such as name, level, hunger, thirst, health, productivity, happiness, and poop count.
-- Cow actions like eating grass and hay, drinking water, sleeping, producing milk, and pooping.
+- Virtual cow with attributes such as level, hunger, thirst, health, productivity, happiness.
+- Cow actions like eating grass and hay, drinking water, sleeping, producing milk, and making dung.
 - Well-being updates over time, affecting the cow's attributes.
 - Health checks to determine the cow's condition and take appropriate actions.
-- Leveling system to increase the cow's productivity and unlock new features.
+- Leveling system to unlock new features.
 - Daily tasks and events to keep the game engaging and challenging.
 
 ## How to Play
 
-1. Create a new instance of the `Cow` class.
+1. Take care of the cow.
 2. Implement a user interface or command-line interface to interact with the cow.
 3. Allow players to perform cow actions and observe the changes in the cow's attributes.
 4. Update the cow's well-being over time and check its health.
@@ -25,7 +25,7 @@ The game is designed to be engaging and educational, allowing players to learn a
 
 ## Contributing
 
-If you would like to contribute to the game, please feel free to fork the repository and submit a pull request. We welcome any improvements and bug fixes.
+If you would like to contribute to the game, please feel free to fork the repository and submit a pull request. I welcome any improvements and bug fixes.
 
 ## License
 

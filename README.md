@@ -18,7 +18,7 @@ The game is designed to be engaging and educational, allowing players to learn a
 ## How to Play
 
 1. Take care of the cow.
-2. Implement a user interface or command-line interface to interact with the cow.
+2. Implement a user interface to interact with the cow.
 3. Allow players to perform cow actions and observe the changes in the cow's attributes.
 4. Update the cow's well-being over time and check its health.
 5. Implement a leveling system and daily tasks to keep the game engaging.

@@ -1,21 +1,17 @@
 public class Item {
-
+    
     private String name;
     private int quantity;
-    private int value;
+    private int maxStackSize;
 
-    public Item(String name, int quantity, int value) {
+    public Item(String name, int maxStackSize) {
         this.name = name;
-        this.quantity = quantity;
-        this.value = value;
+        this.quantity = 0;
+        this.maxStackSize = maxStackSize;
     }
 
     public String getName() {
         return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 
     public int getQuantity() {
@@ -26,11 +22,7 @@ public class Item {
         this.quantity = quantity;
     }
 
-    public int getValue() {
-        return value;
-    }
-
-    public void setValue(int value) {
-        this.value = value;
+    public int getMaxStackSize() {
+        return maxStackSize;
     }
 }

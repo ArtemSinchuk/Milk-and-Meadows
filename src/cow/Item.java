@@ -1,5 +1,6 @@
+// package milkandmeadows.cow;
 public class Item {
-    
+
     private String name;
     private int quantity;
     private int maxStackSize;

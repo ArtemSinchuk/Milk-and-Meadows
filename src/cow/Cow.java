@@ -1,3 +1,4 @@
+// package milkandmeadows.cow;
 /*
  * Milk and Meadows is a simulation game where players take care of a virtual cow, collecting milk and crafting
  * various items from it. The game features a leveling system, daily tasks, and events that affect the cow's

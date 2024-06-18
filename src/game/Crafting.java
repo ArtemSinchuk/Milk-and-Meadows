@@ -1,3 +1,4 @@
+// package milkandmeadows.game;
 /*
  * The Crafting class represents various crafting activities that a virtual cow can perform.
  */
@@ -28,9 +29,9 @@ public class Craft {
 
   public static String craftFertilizer(int dung) {
       if (dung >= 1) {
-          return "The fertiliser has been successfully created from  " + dung + " units of cow dung!";
+          return "The fertilizer has been successfully created from  " + dung + " units of cow dung!";
       } else {
-          return "Not enough cow dung to create fertiliser!";
+          return "Not enough cow dung to create fertilizer!";
       }
   }
 }

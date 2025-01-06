@@ -12,9 +12,8 @@ public class CowGUI extends JFrame {
     private JButton btnForest = new JButton("Forest");
     private JButton btnTasks = new JButton("Tasks");
     private JButton btnEvents = new JButton("Events");
-    private JProgressBar barHealth = new JProgressBar();
-    private JProgressBar barEat = new JProgressBar();
-    private JProgressBar barDrink = new JProgressBar();
+    private JProgressBar barHealth = new JProgressBar(), barEat = new JProgressBar(), barDrink = new JProgressBar();
+    private JPanel centerPanel, northPanel, southPanel, eastPanel, westPanel;
 
     public CowGUI() {
         createGUI();

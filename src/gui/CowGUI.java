@@ -146,8 +146,15 @@ public class CowGUI extends JFrame {
     barDrink.setForeground(new Color(0, 128, 255));
     barDrink.setSize(100, 15);
     barDrink.setLocation(625, 55);
-
     }
+    
+    public void updateBars() {
+    barHealth.setValue(cow.getHealth());
+    //barHappiness.setValue(cow.getHappiness());
+    barDrink.setValue(cow.getHydration());
+    barEat.setValue(cow.getSatiety());
+    }
+    
     public static void main(String[] args) {
       SwingUtilities.invokeLater(() -> {
           CowGUI gui = new CowGUI();

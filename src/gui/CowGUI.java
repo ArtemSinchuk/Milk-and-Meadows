@@ -10,9 +10,10 @@ import javax.swing.JPanel;
 import javax.swing.JProgressBar;
 import javax.swing.SwingUtilities;
 import javax.swing.border.Border;
-
+import cow.Cow;
 public class CowGUI extends JFrame {
 
+    private Cow cow;
     private JLabel lblCowLabel = new JLabel("Cow Miley");
     private JButton btnAccount = new JButton("Account");
     private JButton btnEatButton = new JButton("Eat");

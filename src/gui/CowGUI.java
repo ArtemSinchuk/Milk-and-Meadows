@@ -31,6 +31,14 @@ public class CowGUI extends JFrame {
          new ImageHandler();
     }
 
+    public CowGUI(Cow cow) {
+        createGUI();
+        addComponents();
+        new ImageHandler();
+        this.cow = new Cow();
+       //  visibleComponents();
+   }
+
     private void createGUI() {
         setupFrame();
         setupLabel();
